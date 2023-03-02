@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebWorker</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>메인</h1>
+      </header>
+      <main>
+        <section>
+          <h1>워커 사용 안함</h1>
+          <div id="none_work_result"></div>
+          <button type="button" id="btn_none_work">
+            로직 실행(워커 사용x)
+          </button>
+        </section>
+        <section>
+          <h1>워커 사용 함</h1>
+          <div id="work_result"></div>
+          <button type="button" id="btn_use_work">로직 실행(워커 사용o)</button>
+        </section>
+      </main>
+      <footer>
+        <h1>푸터</h1>
+      </footer>
+    </div>
+
+    <script src="./none_work.js"></script>
+    <script src="./use_work.js"></script>
+  </body>
+</html>
